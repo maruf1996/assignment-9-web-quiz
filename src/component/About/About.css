@@ -1,0 +1,17 @@
+.about_text {
+  text-align: center;
+  color: gray;
+}
+.about_text p {
+  font-size: 22px;
+  text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+  .about_text {
+    margin-top: 20px;
+  }
+  .about_text p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}

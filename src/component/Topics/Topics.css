@@ -1,0 +1,27 @@
+.welcome_text {
+  background-color: rgba(137, 43, 226, 0.093);
+  margin-top: 40px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+.design {
+  font-size: 22px;
+  transition: font-size 2s 1s;
+}
+.design:hover {
+  font-size: 36px;
+  color: navy;
+  cursor: pointer;
+}
+
+.topics_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .topics_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

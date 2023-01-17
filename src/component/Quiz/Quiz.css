@@ -1,0 +1,17 @@
+.card_header {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.icon {
+  border: none;
+  background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .card_header {
+    width: 98%;
+    margin: 15px auto;
+    overflow: hidden;
+  }
+}
